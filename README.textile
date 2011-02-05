@@ -1,0 +1,17 @@
+h1. Config Variables Plugin
+
+I wanted to have access to things like the base_path on my server without having to use PHP. So this plugin gives access to anything that is in the $config array.
+
+h2. Requirements & Installation
+
+Config Variables is built to run on EE 2.0. To install:
+
+* Copy the config folder into your /system/expressionengine/third_party/ directory.
+
+h2. Usage
+
+<pre>{exp:config:vars value="base_path"}</pre>
+
+To see all of the possible values, just pass in "all"
+
+<pre>{exp:config:vars value="all"}</pre>
