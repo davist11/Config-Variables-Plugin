@@ -91,6 +91,10 @@ Outputs a string value from the available config variables.
 
 {exp:config:vars value="base_path"}
 
+To retreive variables in nested arrays, use the ":" delimeter.
+
+{exp:config:vars value="upload_preferences:1:url"}
+
 If you want to see all avaiable parameters, pass in all to have the array printed:
 
 {exp:config:vars value="all"}
