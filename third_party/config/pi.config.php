@@ -4,7 +4,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
   'pi_name' => 'Config Variables',
-  'pi_version' => '0.1',
+  'pi_version' => '0.2',
   'pi_author' => 'Trevor Davis',
   'pi_author_url' => 'http://trevordavis.net/',
   'pi_description' => 'Returns the specified config variable',
